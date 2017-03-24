@@ -7,6 +7,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+body
+{
+	margin-left: 10px;
+}
 
 		/*--------header style--------*/
 
@@ -24,7 +28,7 @@ header
 	width: 30px;
 	height: auto;
 	margin-top: 10px;
-	margin-left: 10px;
+	
 }
 .logo i , .logo img
 {
@@ -35,6 +39,8 @@ header
 {
 	vertical-align:8px;
 	color: rgb(90,90,90);
+	margin-left: 13px;
+
 }
 
 
@@ -42,20 +48,47 @@ header
 		/*--------Quation  style section--------*/
 
 .quation
-{    margin-top: 30px; 
+{   
+	margin-top: 20px; 
 	width: 100%;
 	height: 100px;
-}
+}	
 .quation h1
 {
 	color: rgb(255,90,95);
+	
+	
+}
+.quation h1 , .quation p
+{
+	font-family: 'Roboto Mono', monospace;
+	font-size: 18px;
+}
+.quation p
+{
+	color: rgb(90,90,90);
 }
 
 
 
+		/*--------search mobile  style section--------*/
 
-
-
+.recherchemobil1
+{
+	width: 100%;
+	height: 50px;
+}
+.recherchemobil1 .input-search input
+{
+	width: 93%;
+	padding:6px;	
+	margin:0 1.5% ;
+	border:1px solid rgb(227,222,222);
+}
+.recherchemobil1 .input-search input[placeholder] 
+{
+	font-size: 12px;
+}
 
 .rechercher2
 {
