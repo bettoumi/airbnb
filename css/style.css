@@ -1,0 +1,93 @@
+/*------------start phone first---------*/
+/****************************************/
+
+         /*--------regle commune--------*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+		/*--------header style--------*/
+
+header
+{
+	width: 100%;
+	height: 50px;
+}
+.menu
+{
+	display: none;
+}
+.logo img
+{
+	width: 30px;
+	height: auto;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.logo i , .logo img
+{
+	display: inline-block;
+	
+}
+.logo i
+{
+	vertical-align:8px;
+	color: rgb(90,90,90);
+}
+
+
+
+		/*--------Quation  style section--------*/
+
+.quation
+{    margin-top: 30px; 
+	width: 100%;
+	height: 100px;
+}
+.quation h1
+{
+	color: rgb(255,90,95);
+}
+
+
+
+
+
+
+
+.rechercher2
+{
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*------------start  Tablet style---------*/
+/****************************************/
+
+
+
+
+
+
+
+
+
+
+
+/*------------start Laptop style---------*/
+/****************************************/
