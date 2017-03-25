@@ -53,22 +53,22 @@ header
 	width: 100%;
 	height: 100px;
 }	
+
+.quation h1 
+{
+	font-family:  'Roboto Mono', monospace;
+	font-size: 18px;
+}
 .quation h1
+{
+	color: rgb(90,90,90);
+}
+.quation h1 .qcouleur
 {
 	color: rgb(255,90,95);
 	
 	
 }
-.quation h1 , .quation p
-{
-	font-family: 'Roboto Mono', monospace;
-	font-size: 18px;
-}
-.quation p
-{
-	color: rgb(90,90,90);
-}
-
 
 
 		/*--------search mobile  style section--------*/
@@ -137,6 +137,7 @@ header
 .fmobile
 {
 	width:95%;
+	margin:auto;
 	display:flex;
 	justify-content: space-between;
 }
@@ -160,6 +161,7 @@ header
 {
   color: rgb(90,90,90);
   font-size: 13px;
+  margin:15px 3%;
   margin-bottom: 15px;
 
 }
@@ -293,20 +295,56 @@ header
 {
 	width:100%;
 	height: 40px;
-	background-color: none;
+	background-color:white;
+	color:#000;  
+    color:rgba(0,0,0,0);    
+    text-shadow:0 0 0 #000;
+    border:1px solid #767676;
+    
 }
 
-.sectfoot2 p
+   /*---------------style the second section of footer-------*/
+.sectfoot2
+{
+	width: 100%;
+	height: 100px;
+}
+.sectfoot2  hr
+{
+	width:91%;
+	margin:8px 2%;
+	color: #e3dede;
+}
+                /*-------------style the first article in sectfoot2-----*/
+.sectfoot2 .footer-gauche img
+{
+	width: 5%;
+
+}
+ .sectfoot2 .footer-gauche span, .sectfoot2 .footer-gauche i
 {
 	color:#767676;
-
+    font-size:15px;
 }	
 
+            /*---------------style the second article  in the sectfoot2-------*/
 
 
+.sectfoot2 .footer-droite
+{
+	color: #767676;
+	font-size: 13px;
+}
+.sectfoot2 .footer-droite p i
+{
+	margin-right: 10px;
 
 
-
+}
+.sectfoot2 .footer-droite p .material-icons
+{
+	font-size: 15px
+}
 
 
 
@@ -317,7 +355,48 @@ header
 /*------------start  Tablet style---------*/
 /****************************************/
 
+@media(min-width: 750px)
+{
+     /*-----------header style in the tablet-------*/
+	header 
+	{
+		display: flex;
+		justify-content: space-between;
+	}
+	header .afftab
+	{
+		width: 42%;
 
+	}
+	header .menu 
+	{
+		display: flex;
+		
+		
+
+	}
+
+	header .menu a
+	{
+		list-style-type: none;
+		text-decoration: none;
+		margin:20px 2.8%;
+		color: rgb(90,90,90);
+		font-size: 13px;
+
+	}
+    .quation
+    {
+    	margin-top: 50px;
+    	height: 150px;
+    }
+   .quation h1
+   {
+   	font-size: 36px;
+   	 margin-bottom: 20px;
+
+   }
+}
 
 
 
