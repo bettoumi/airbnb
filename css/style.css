@@ -396,7 +396,77 @@ header
    	 margin-bottom: 20px;
 
    }
+
+   /*------------style search menu---------*/
+   .recherchemobil1
+   {
+   	display:none;
+   }
+   .rechercher2
+   {
+   	 display :flex;
+   	 width: 95%;
+   	 height: 85px;
+   	 justify-content: space-between;
+   	 margin:auto;
+   	 border: 1px solid #e3dede;
+   	 box-shadow: 2px 1px #e3dede;
+   	 border-radius: 2px;
+   	 
+   
+   }
+   .elementrecher
+   {
+   	
+   	width:33%;
+   	height: 100%;
+   	padding: 8px 8px;
+   	 
+   	
+   }
+   .ligleft
+   {
+   	border-left: 1px solid #e3dede ;
+   	height: 100%;
+   }
+   .elementrecher input
+   {
+   	  width: 80%;
+   	  margin:15px auto ;
+   	  border: none;
+
+   }
+   .elementrecher .localinput
+   {
+   	 width: 90%;
+   	 display:flex;
+   	 justify-content: space-around;
+
+   }
+   .elementrecher #depart ,.elementrecher #arrive
+   {
+   	  width:35%;
+   	  /*margin:0 2%;
+   	  margin-left: 8px;*/
+   }
+   .elementrecher .localinput i
+   {
+   	 align-self: center;
+   	 margin-right:45px;
+   	 font-size: 20px;
+   	 color:rgb(110,109,106);
+   }
+  .elementrecher #depart[placeholder],.elementrecher #arrive[placeholder],.elementrecher #ou[placeholder]
+  {
+  	font-size: 20px;
+  }
+   .elementrecher label
+   {
+   	color:rgb(110,109,106);
+   	font-size: 14px;
+   }
 }
+
 
 
 
