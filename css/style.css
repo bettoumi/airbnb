@@ -136,13 +136,13 @@ header
  
 .fmobile
 {
-	width:100%;
+	width:95%;
 	display:flex;
 	justify-content: space-between;
 }
 .fmobile figure
 {
-	width: 40%;
+	width: 48%;
 	height: 100%;
 }
 
@@ -188,7 +188,7 @@ header
 /*-------style  "Destination à la une" slider-------*/
 .slider1 .destination
 {
-	width: 100%;
+	width: 95%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -198,15 +198,109 @@ header
   width: 30%;
   height:100%;
 }
-
+.slider1 .destination .f2mobile img
+{
+  width: 100%;
+  height: 80%;
+}
+.slider1 .destination .f2mobile span
+{
+	font-size: 13px;
+	font-family: Arial;
+	font-weight: bold;
+	color: rgb(72,72,83);
+}
 .slider1 .destination .fnmobile
 {
 	display: none;
 } 
 
+/*-------style  "Ouvrer la porte" slider-------*/
+
+.estimer
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.estimer .ouvrer-laporte
+{
+	width: 98%;
+}
+.estimer .ouvrer-laporte figure
+{
+	width: 100%;
+}
+.estimer .ouvrer-laporte figure img
+{
+	width: 100%
+
+}
+.estimer .ouvrer-laporte h3
+{
+	font-family: Arial;
+	font-weight: bold;
+	color: black;
+	font-size: 16px;	
+}
+.estimer .ouvrer-laporte p
+{
+	font-size: 13px;
+	font-family: Arial;
+	word-spacing: 5px;
+	margin-bottom: 15px;
+}
+.estimer .ouvrer-laporte button
+{
+	background-color: rgb(0,132,137);
+	color: white;
+	border:none;
+	padding: 6px 8px;
+	border-radius: 3px;
+	font-weight: bold;
+}
 
 
+/*-------------Footer style-------------------*/
+ .sectfoot1
+ {
+ 	width:100%;
+ 	margin-top: 10px;
+ }
+ .sectfoot1 hr
+{
+	/*height: 0.3px;
+	font-size: 0.3px;*/
+	color: #e3dede;
+}
 
+.sectfoot1 .container
+{    
+	width: 95%;
+	display:flex;
+	align-items: space-around;
+}
+.sectfoot1 .lien
+{
+	display:none;
+}
+.sectfoot1 .container .select
+{
+  width:47%;
+  margin:15px auto;
+ 
+}
+.sectfoot1 .container .select select
+{
+	width:100%;
+	height: 40px;
+	background-color: none;
+}
+
+.sectfoot2 p
+{
+	color:#767676;
+
+}	
 
 
 
