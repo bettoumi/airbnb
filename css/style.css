@@ -484,7 +484,11 @@ header
    	font-size: 14px;
    }
    
-   
+   #voyageur #butlaptop
+   {
+   	display:none;
+   }
+
    #voyageur .localinput input
    {
    		width: 40%;
@@ -640,14 +644,59 @@ header
 
 }
 
-
-
-
-
-
-
-
-
-
 /*------------start Laptop style---------*/
 /****************************************/
+@media(min-width: 1024px)
+{    
+    /*--------style search menu----*/
+
+	#voyageur .butontablet
+	{
+		display: none;
+	}
+	#voyageur #butlaptop
+	{
+		display: block;
+		color: white;
+	}
+	/*----------style slider for laptop-----------*/
+   	
+
+   	.fmobile figure
+   	{
+	  width: 24%;
+	  height: 100%;
+	  
+	}
+	.slider1  .fmobile .laptopfigure
+   	{
+   		display:block;
+   	}
+
+
+   	/*----------style slider logement for laptop------*/
+
+   
+   #logement figure
+	{
+  		width:32%;
+  		height: 100%;
+
+	}
+	.slider1 #logement .laptopfigure
+	{
+		display:block;
+	}
+
+	/*--style slider:" distination à la une for laptop--*/
+
+	.slider1 .destination .f2mobile
+	{
+  		width: 15%;
+  		height:100%;
+	}
+	.slider1 .destination #flaptop, .slider1 .destination #flaptop2
+	{
+		display :block;
+	}
+}
